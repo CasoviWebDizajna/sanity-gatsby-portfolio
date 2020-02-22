@@ -14,6 +14,11 @@ export default {
       type: 'string',
       title: 'Title'
     },
+{
+      name: 'subtitle',
+      type: 'string',
+      title: 'subTitle'
+    },
     {
       name: 'description',
       type: 'text',
