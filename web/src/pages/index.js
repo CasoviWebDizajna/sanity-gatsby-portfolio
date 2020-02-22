@@ -15,7 +15,7 @@ export const query = graphql`
   query IndexPageQuery {
     site: sanitySiteSettings(_id: {regex: "/(drafts.|)siteSettings/"}) {
       title
-      Subtitle
+      subtitle
       description
       keywords
     }
